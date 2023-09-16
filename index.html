@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjana_Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="left">
+          <img class="logo" src="logo.png" />
+          Sanjana Rao
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Experience</a></li>
+            <li><a href="/">Competitive Programming</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- FIRSTSECTION -->
+      <section class="firstSection">
+        <!-- LEFT SECTION -->
+        <div class="leftSection">
+          Hi, I am <span class="name">Sanjana</span> and I am a passionate
+          <!-- <div>Web Developer</div> -->
+          <div><span id="element"></span></div>
+          <div class="quote">"Perseverance and resourcefulness fuel my journey to spark meaningful change."</div>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Leetcode</button>
+          </div>
+        </div>
+        <!-- RIGHT SECTION -->
+        <div class="rightSection">
+          <img src="sanjana.jpeg" alt="my img" />
+        </div>
+      </section>
+
+      <!-- SECONDSECTION -->
+      <section class="secondSection">
+        <div class="about">ABOUT ME</div>
+        <div class="text">I'm a 3rd-year student pursuing my graduation in Bachelor of Technology at IIIT TRICHY (Indian Institute of Information Technology Trichy). I have a genuine passion for Data Structures and Algorithms (DSA) and relish the thrill of problem-solving. My journey in web development, specifically in frontend technologies, has equipped me with the skills to address real-life challenges.</div>
+      </section>
+
+      <hr>
+      
+      <!-- THIRDSECTION -->
+      <section class="thirdSection">
+        <div class="projects">Projects <img class="image-top" src="box_girl_dev.png" />
+          <div class="box">
+            <div class="pro">
+              <b>Amazon Clone</b>
+              <div class="desc">Made clone of amazon website.</div>
+              <div class="tech">Technologies used : HTML , CSS , Bootstrap.</div>  
+            </div>
+            <div class="pro">
+              <b>Simon says game</b>
+              <div class="desc">A web app where system chooses a random button and player has to press the sequence of buttons from the start.</div>
+              <div class="tech">Technologies used : HTML , CSS , JavaScript.</div>  
+            </div>
+            <div class="pro">
+              <b>ToDo App</b>
+              <div class="desc">A javascript based web app , where u can add and delete your to-do tasks</div>
+              <div class="tech">Technologies used : HTML , CSS , JavaScript.</div>  
+            </div>
+  
+          </div>
+        </div>
+        <div class="skills">Skills <img class="image-top" src="box_girl_dev.png" />
+          <div class="box">
+            <div><b>DATA STRUCTURES & ALGORITHMS</b></div>
+            <div><b>FRONTEND DEVELOPMENT (HTML, CSS, BOOTSTRAP, JAVASCRIPT)</b></div>
+            <div><b>C++</b></div>
+            <div><b>OBJECT-ORIENTED PROGRAMMING</b></div>  
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- FOURTHSECTION -->
+      <section class="fourthSection">
+        <div id="cp">COMPETITIVE PROGRAMMING</div>
+        <div class="text one">I've been honing my competitive coding and Data Structures and Algorithms (DSA) skills since 2022 . I am active on platforms like LeetCode and GeeksforGeeks. This experience has not only sharpened my problem-solving abilities but also provided practical insights into applying DSA concepts effectively. </div>
+        <div class="text two">I participated in many national and inter-college competitions.</div>
+        <div><img src="leetcode.png" alt="leetcode profile"></div>
+      </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+      <!-- FOOTER SPACE -->
+      <div class="footer-space"></div>
+      <!-- FOOTER-RIGHTS -->
+      <div class="footer-rights">
+        2023 CopyRight &copy; | Sanjana Rao
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer" , "Coder"],
+        typeSpeed: 50,
+      });
+    </script>
+    
+  </body>
+</html>
